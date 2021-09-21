@@ -1,22 +1,28 @@
 {
-  "name": "assignment2",
+  "name": "lange-jordan",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node -r esm server.js",
-    "server":"nodemon -r esm server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdev161-fa2022/Lange-Jordan.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdev161-fa2022/Lange-Jordan/issues"
+  },
+  "homepage": "https://github.com/itdev161-fa2022/Lange-Jordan#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-validator": "^6.12.1",
-    "mongoose": "^6.0.6"
+    "mongoose": "^6.0.7"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
